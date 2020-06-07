@@ -6,6 +6,13 @@
              mc:Ignorable="d"
              x:Class="Covid19Stats.App">
     <Application.Resources>
-
+		<ResourceDictionary>
+			<Color x:Key="confirmColor">OrangeRed</Color>
+			<Color x:Key="recoveredColor">Green</Color>
+			<Color x:Key="deceasedColor">DarkGray</Color>
+			<Color x:Key="normalTextColor">Black</Color>
+			<Color x:Key="titleTextColor">White</Color>
+			<Color x:Key="mainColor">#4285f4</Color>
+		</ResourceDictionary>
     </Application.Resources>
 </Application>
